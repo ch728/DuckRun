@@ -3,10 +3,6 @@
   <img width="460" height="300" src="./intro_screen.png">
 </p>
 
-
-## Description
-This game was inspired by the Ithaca 4H annual duck run event.
-
 ## Directions
 <p align="left">
   <img width="460" height="300" src="./instruction_screen.png">
