@@ -39,7 +39,7 @@ def main():
               r"sound/game_over.ogg"]
     duck_songs = [r'sound/main_theme_red_duck.ogg',
                   r'sound/main_theme_yellow_duck.ogg',
-                  r'sound/ain_theme_pink_duck.ogg']
+                  r'sound/main_theme_pink_duck.ogg']
 
     #make a picture albums
     back_pics=[r"pics/intro.png",r"pics/game_over.png"]
