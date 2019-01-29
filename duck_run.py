@@ -35,29 +35,30 @@ def main():
     texts = pygame.font.SysFont("Bitstream Vera Sans", 20)
 
     # make playlists
-    scenes = ['sound\Intro_dance.ogg', "sound\direction_theme.ogg",
-              "sound\game_over.ogg"]
-    duck_songs = ['sound\main_theme_red_duck.ogg',
-                  'sound\main_theme_yellow_duck.ogg',
-                  'sound\main_theme_pink_duck.ogg']
+    scenes = [r'sound\Intro_dance.ogg', r"sound\direction_theme.ogg",
+              r"sound\game_over.ogg"]
+    duck_songs = [r'sound\main_theme_red_duck.ogg',
+                  r'sound\main_theme_yellow_duck.ogg',
+                  r'sound\main_theme_pink_duck.ogg']
 
     #make a picture albums
-    back_pics=["pics\intro.png","pics\game_over.png"]
-    duck_pics=["pics\red_duck.png","pics\yellow_duck.png","pics\pink_duck.png"]
-    text_pics=["pics\title.png","pics\up_key.png","pics\down_key.png", "pics\up_key_blank.png","pics\down_key_blank.png"]
-    enemy_pics=["pics\rock.png"]
-    item_pics=["pics\bread_crumb.png","pics\heart.png","pics\duck_token.png"]
+    back_pics=[r"pics\intro.png",r"pics\game_over.png"]
+    duck_pics=[r"pics\red_duck.png",r"pics\yellow_duck.png",r"pics\pink_duck.png"]
+    text_pics=[r"pics\title.png",r"pics\up_key.png",r"pics\down_key.png",
+               r"pics\up_key_blank.png",r"pics\down_key_blank.png"]
+    enemy_pics=[r"pics\rock.png"]
+    item_pics=[r"pics\bread_crumb.png",r"pics\heart.png",r"pics\duck_token.png"]
     super_pics=[]
     for x in range(1,11,1):
-        super_pics.append("pics\super_%i.png"%x)
+        super_pics.append(r"pics\super_" + "%i.png"%x)
     exp_pics=[]
     for x in range(9):
-        exp_pics.append("pics\regularExplosion0%i.png"%x)
+        exp_pics.append(r"pics\regularExplosion0" +"%i.png"%x)
 
     #load sound effects
-    super_sound=pygame.mixer.Sound("sound\super.ogg")
-    squeak=pygame.mixer.Sound("sound\squeak.wav")
-    quack=pygame.mixer.Sound("sound\quack.wav")
+    super_sound=pygame.mixer.Sound(r"sound\super.ogg")
+    squeak=pygame.mixer.Sound(r"sound\squeak.wav")
+    quack=pygame.mixer.Sound(r"sound\quack.wav")
 
 
     #set up screen
