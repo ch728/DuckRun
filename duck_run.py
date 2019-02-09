@@ -167,7 +167,7 @@ def main():
     up_blank=bg.Block(text_pics[4],(50,225))
 
     line1= textf.render("Swim courageously", False, black)
-    line2=textf.render("Dodge, feed, dodge, and prevail", False, black)
+    line2=textf.render("Duck: dodge, feed, dodge, and prevail", False, black)
     line3=textf.render("Swiftly, duck, swiftly", False, black)
 
     #setup for flashing text
@@ -206,7 +206,7 @@ def main():
          screen.fill(blue)
          screen.blit(score,(5,10))
          screen.blit(line1,(175,25))
-         screen.blit(line2,(125,60))
+         screen.blit(line2,(80,60))
          screen.blit(line3,(175,95))
          screen.blit(blink,(150,350))
          screen.blit(rock1.image,rock1.get_pos())
